@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Fridgely – Smart Food Tracker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🥕 Fridgely</h1>
+    <p>Track your fridge, reduce food waste, and save money.</p>
+
+    <form id="foodForm">
+      <input type="text" id="foodName" placeholder="Food name (e.g., Milk)" required />
+      <input type="date" id="expiryDate" required />
+      <button type="submit">Add</button>
+    </form>
+
+    <h2>📋 Your Fridge</h2>
+    <ul id="foodList"></ul>
+
+    <footer>
+      <p><strong>Fridgely</strong> – Free & simple smart fridge assistant</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
